@@ -2,7 +2,6 @@
 
 *.pem
 *.sh
-!deploy.sh
 
 # compiled output
 # /dist
@@ -11,7 +10,8 @@
 /out-tsc
 
 # dependencies
-/node_modules
+/front/node_modules
+/back/node_modules
 
 # IDEs and editors
 /.idea
@@ -39,8 +39,8 @@ testem.log
 /typings
 
 # e2e
-/e2e/*.js
-/e2e/*.map
+front/e2e/*.js
+front/e2e/*.map
 
 # System Files
 .DS_Store

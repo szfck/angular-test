@@ -1,1 +1,0 @@
-docker run -dit --name test -v /usr/share/nginx/html:/usr/share/src:ro szfck/nyu-problemtools:latest
