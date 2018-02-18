@@ -2,6 +2,7 @@
 
 *.pem
 *.sh
+!deploy.sh
 
 # compiled output
 # /dist

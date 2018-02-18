@@ -12,7 +12,8 @@ export class HeroService {
   //   this.messageService.add('HeroService: fecthed heroes');
   //   return of(HEROES);
   // }
-  private heroesUrl = 'api/heroes';
+  // private heroesUrl = 'api/heroes';
+  private heroesUrl = 'heroes';
   getHeroes(): Observable<Hero[]> {
     return this.http.get<Hero[]>(this.heroesUrl)
       .pipe(
