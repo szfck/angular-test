@@ -5,6 +5,8 @@
 
 # compiled output
 # /dist
+front/dist
+back/dist
 /dist-server
 /tmp
 /out-tsc
